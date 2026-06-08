@@ -7,4 +7,5 @@
 const toForenheit=(celsius:number)=>{
      return ((celsius * 9)/5)+32
 }
+console.log(toForenheit(0))
 console.log(toForenheit(100))

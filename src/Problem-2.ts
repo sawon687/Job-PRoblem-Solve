@@ -18,4 +18,5 @@ const EvenOdd=(num:number):boolean=>{
  return num %2 ==0
 }
 
-console.log(EvenOdd(8))
+console.log(EvenOdd(4))
+console.log(EvenOdd(7))
