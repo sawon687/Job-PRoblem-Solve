@@ -9,12 +9,12 @@
        let i=0;
        while(i<arr.length)
        {
-          result.push(arr.splice(i,size+i))
+          result.push(arr.slice(i,size+i))
           console.log('sawon',arr.splice(i,size+i))
           i+size
        }
 
-       return [...result]
+       return result
  }
 
  console.log(chunkArray([1,2,3,4,5], 2 ))
