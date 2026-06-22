@@ -5,6 +5,7 @@
 // Hint: Use Object.keys().length.
 
 const countProperties=(obj:any)=>{
+    console.log(Object.keys(obj))
     return Object.keys(obj).length
 }
 console.log(countProperties({a: 1, b: 2, c: 3}))
